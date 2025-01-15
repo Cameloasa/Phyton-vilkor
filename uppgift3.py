@@ -22,28 +22,33 @@ print("The match is over, let's calculate the result!")
 goals_tottenham = int(input("How many goals did Tottenham score? "))
 goals_liverpool = int(input("How many goals did Liverpool score? "))
 
-# Determine the result
-if goals_tottenham > goals_liverpool:
-    print("Tottenham won!")
-elif goals_liverpool > goals_tottenham:
-    print("Liverpool won!")
-else:
-    print("The match ended in a draw!")
+try:
+
+    # Determine the result
+    if goals_tottenham > goals_liverpool:
+        print("Tottenham won!")
+    elif goals_liverpool > goals_tottenham:
+        print("Liverpool won!")
+    else:
+        print("The match ended in a draw!")
 
 
-# Prompt the user for scores
-print("The match is over, let's calculate the result!")
-goals_tottenham = int(input("How many goals did Tottenham score? "))
-goals_liverpool = int(input("How many goals did Liverpool score? "))
+    # Prompt the user for scores
+    print("The match is over, let's calculate the result!")
+    goals_tottenham = int(input("How many goals did Tottenham score? "))
+    goals_liverpool = int(input("How many goals did Liverpool score? "))
 
-# Determine the result and margin of victory
-if goals_tottenham > goals_liverpool:
-    difference = goals_tottenham - goals_liverpool
-    goal_word = "goal" if difference == 1 else "goals"
-    print(f"Tottenham won by {difference} {goal_word} !")
-elif goals_liverpool > goals_tottenham:
-    difference = goals_liverpool - goals_tottenham
-    goal_word = "goal" if difference == 1 else "goals"
-    print(f"Liverpool won by {difference} {goal_word} !")
-else:
-    print("The match ended in a draw!")
+    # Determine the result and margin of victory
+    if goals_tottenham > goals_liverpool:
+        difference = goals_tottenham - goals_liverpool
+        goal_word = "goal" if difference == 1 else "goals"
+        print(f"Tottenham won by {difference} {goal_word} !")
+    elif goals_liverpool > goals_tottenham:
+        difference = goals_liverpool - goals_tottenham
+        goal_word = "goal" if difference == 1 else "goals"
+        print(f"Liverpool won by {difference} {goal_word} !")
+    else:
+        print("The match ended in a draw!")
+
+except ValueError:
+    print("Error: Invalid input. Please enter numeric values for the scores.")
