@@ -17,24 +17,10 @@ Eftersom det finns tre mÃ¶jliga utfall (lag 1 vinst, lag 2 vinst, oavgjort) behÃ
 
 """
 
-# Prompt the user for scores
 print("The match is over, let's calculate the result!")
-goals_tottenham = int(input("How many goals did Tottenham score? "))
-goals_liverpool = int(input("How many goals did Liverpool score? "))
 
 try:
-
-    # Determine the result
-    if goals_tottenham > goals_liverpool:
-        print("Tottenham won!")
-    elif goals_liverpool > goals_tottenham:
-        print("Liverpool won!")
-    else:
-        print("The match ended in a draw!")
-
-
     # Prompt the user for scores
-    print("The match is over, let's calculate the result!")
     goals_tottenham = int(input("How many goals did Tottenham score? "))
     goals_liverpool = int(input("How many goals did Liverpool score? "))
 
@@ -42,13 +28,19 @@ try:
     if goals_tottenham > goals_liverpool:
         difference = goals_tottenham - goals_liverpool
         goal_word = "goal" if difference == 1 else "goals"
-        print(f"Tottenham won by {difference} {goal_word} !")
+        print(f"Tottenham won by {difference} {goal_word}!")
     elif goals_liverpool > goals_tottenham:
         difference = goals_liverpool - goals_tottenham
         goal_word = "goal" if difference == 1 else "goals"
-        print(f"Liverpool won by {difference} {goal_word} !")
+        print(f"Liverpool won by {difference} {goal_word}!")
     else:
         print("The match ended in a draw!")
-
 except ValueError:
     print("Error: Invalid input. Please enter numeric values for the scores.")
+
+"""
+1. 2-2 draw
+2. 2-1 T won
+3. 1-3 L won
+4. user input abc
+"""

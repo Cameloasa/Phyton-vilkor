@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74da7d3d-5f14-416b-9fca-07e08ff04873" name="Changes" comment="Sportresultat - added try/ except error ifall user skriver negativa tal eller not annat">
-      <change afterPath="$PROJECT_DIR$/ifelsestatement.py" afterDir="false" />
+    <list default="true" id="74da7d3d-5f14-416b-9fca-07e08ff04873" name="Changes" comment="Temp omvandling - Use while for user input to choose a right unit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temperatureprogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/temperatureprogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uppgift3.py" beforeDir="false" afterPath="$PROJECT_DIR$/uppgift3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   "keyToString": {
     "Python.ifelsestatement.executor": "Run",
     "Python.temperatureprogram.executor": "Run",
+    "Python.uppgift3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -119,13 +119,22 @@
       <option name="project" value="LOCAL" />
       <updated>1737019825984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Temp omvandling - Use while for user input to choose a right unit">
+      <option name="closed" value="true" />
+      <created>1737022379959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737022379959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="temperatur omvandling added meddelande för bra eller dåligt väder" />
     <MESSAGE value="Sportresultat - added try/ except error ifall user skriver negativa tal eller not annat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sportresultat - added try/ except error ifall user skriver negativa tal eller not annat" />
+    <MESSAGE value="Temp omvandling - Use while for user input to choose a right unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Temp omvandling - Use while for user input to choose a right unit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
