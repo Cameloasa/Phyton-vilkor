@@ -11,3 +11,11 @@ elif is_cold and not is_raining:
     print("Take your jacket!")
 else:
     print("Umbrella optional.")
+
+amount = 51
+
+
+if amount <= 50:
+    print("Purchase approved")
+else:
+    print("Please, enter your PIN: ")

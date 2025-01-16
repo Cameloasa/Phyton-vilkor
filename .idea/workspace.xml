@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74da7d3d-5f14-416b-9fca-07e08ff04873" name="Changes" comment="Temp omvandling - Use while for user input to choose a right unit">
+    <list default="true" id="74da7d3d-5f14-416b-9fca-07e08ff04873" name="Changes" comment="Sportresultat- shorter code to reducing repetition">
+      <change afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uppgift3.py" beforeDir="false" afterPath="$PROJECT_DIR$/uppgift3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ifelsestatement.py" beforeDir="false" afterPath="$PROJECT_DIR$/ifelsestatement.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.calculator.executor": "Run",
     "Python.ifelsestatement.executor": "Run",
     "Python.temperatureprogram.executor": "Run",
     "Python.uppgift3.executor": "Run",
@@ -127,14 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737022379959</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sportresultat- shorter code to reducing repetition">
+      <option name="closed" value="true" />
+      <created>1737023163111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737023163111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="temperatur omvandling added meddelande för bra eller dåligt väder" />
     <MESSAGE value="Sportresultat - added try/ except error ifall user skriver negativa tal eller not annat" />
     <MESSAGE value="Temp omvandling - Use while for user input to choose a right unit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temp omvandling - Use while for user input to choose a right unit" />
+    <MESSAGE value="Sportresultat- shorter code to reducing repetition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sportresultat- shorter code to reducing repetition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
